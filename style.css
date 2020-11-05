@@ -73,7 +73,7 @@ form {
     align-self: center;
 }
 
-.search {
+#search {
     display: flex;
     box-sizing: border-box;
     border-radius: 25px;
@@ -84,7 +84,7 @@ form {
     margin-top: 25px;
 }
 
-.search:hover {
+#search:hover {
     box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -99,7 +99,7 @@ form {
     right: 25px;
 }
 
-.search input {
+#search input {
     color: rgba(0, 0, 0, 0.8);
     border: none;
     outline: none;
@@ -109,7 +109,7 @@ form {
     padding-top: 3px;
 }
 
-.search  input::-webkit-search-cancel-button {
+#search  input::-webkit-search-cancel-button {
     -webkit-appearance: none;
     cursor: pointer;
     background-image: url("https://www.flaticon.com/svg/static/icons/svg/2089/2089650.svg");
@@ -132,7 +132,7 @@ form {
     left: 20px;
     cursor: pointer;
 }
-.btn {
+#btn {
     box-sizing: border-box;
     display: flex;
     margin-top: 35px;
@@ -213,7 +213,7 @@ footer a:hover {
         width: 50%;
     }
 
-    .search {
+    #search {
         width: 90vw;
     }
 
